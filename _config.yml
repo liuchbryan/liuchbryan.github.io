@@ -1,0 +1,104 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Bryan Liu
+# Description of the Site
+description: Data scientist skilled in customer models, econometrics, and digital experimentation.  
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/BryanLiu_1920x1080.png
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: liu.ch.bryan@gmail.com
+facebook_username:
+twitter_username:
+instagram_username:
+linkedin_username: liuchbryan
+github_username: liuchbryan
+youtube_channel_id: UCdVvCsSFtYhgozs54UKyaKQ
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
+
+# Google Analytics
+google-analytics: 
+
+# Disqus
+disqus-shortname: 
+
+# Name of the Author
+author-name: Bryan Liu
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# About the Author, in Markdown
+author-about: |
+  I am a data scientist. I help business teams solve their data problems and realise tangible value. Often, I do so by leading cross-functional teams to build data pipelines and statistics/machine learning models.    
+      
+  Over the years (mainly at [ASOS.com](https://www.asos.com)), I have built many customer models and produced sales and returns forecasts. I have also learnt how to translate between technical and business, academia and industry, and science and engineering.   
+       
+  In addition, I specialise in measuring the impact of business decisions via online experiments. My PhD [at Imperial and Oxford](https://statml.io/) focuses on the practical data and statistical challenges when one starts experimenting from scratch.    
+      
+  I am a member of the Royal Statistical Society and the [UK Global Talent / Tech Nation Visa Alumni Network](https://technation.io/global-talent-alumni/). I review academic and technical work for conferences such as AdKDD and others. I also mentor high school students seeking a tech or data science career via the [Social Mobility Foundation](https://www.socialmobility.org.uk/mentoring).    
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://linkedin.com/in/liuchbryan
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
