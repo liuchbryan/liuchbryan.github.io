@@ -1,0 +1,35 @@
+- name: Data Analysis & Model Building
+  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
+  link:
+  description: I can help unlock business opportunities by understanding your business quickly yet deeply and solving your data puzzles, often with data pipelines and statistical/machine learning models.
+- name: Data Consultancy
+  link:
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
+  description: |-
+    I can advise on a wide range of data topics, in particular
+    - Data collection & processing
+    - Customer modelling
+    - Marketing/econometric models
+    - ML model optimisation/evaluation
+    - Digital experimentation
+- name: The Odd-job in Data
+  link:
+  image: https://cdn.pixabay.com/photo/2016/06/25/12/55/art-1478831_960_720.jpg
+  description: |-
+    Not every job takes weeks or months, but it doesn't mean they do not need to be taken care of. I can help with the following:  
+    * Document reviews - CVs, job descriptions, technical specs, research manuscripts
+    * Mockups - DS/ML interview tasks, data visualisations
+- name: Technical Education & Development
+  link:
+  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  description: |-  
+    I can deliver crash courses on specific statistics and data science topics.
+    Check out my past talks and a customised session on applying t-tests when the number of users may not be enough.
+- name: Coaching & Mentoring
+  link:
+  image: https://cdn.pixabay.com/photo/2016/12/02/02/10/idea-1876659_960_720.jpg
+  description: |-
+    I can assist with the following growth opportunities:
+    * UK maths, computer science, statistics and data science degree applications
+    * Professional development in data science & machine learning roles
+    * UK Global Talent Visa endorsement (digital technology, Stage 1) preparations
